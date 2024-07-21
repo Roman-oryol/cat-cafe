@@ -14,7 +14,6 @@ import {
 import { register } from "swiper/element/bundle";
 register();
 
-
 function Gallery({ slides }) {
   const swiperRef = useRef(null);
 
